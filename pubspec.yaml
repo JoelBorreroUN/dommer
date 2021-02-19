@@ -1,0 +1,42 @@
+name: dommer
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_spinkit: ^4.1.2+1
+  firebase_auth: ^0.16.1
+  cloud_firestore: ^0.13.7
+  provider: ^4.3.2+3
+  font_awesome_flutter: ^8.11.0
+  flutter_open_whatsapp: ^0.1.2
+  google_maps_flutter: ^1.0.10
+  location: ^3.2.1
+  geolocator: ^6.1.13
+  workmanager: ^0.2.3
+  firebase_messaging: ^6.0.16
+  firebase_core: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/bike.png
+  fonts:
+  - family: Provicali
+    fonts:
+      - asset: assets/fonts/Provicali.otf
+  - family: MontSerrat
+    fonts:
+      - asset: assets/fonts/MontSerrat-Regular.ttf
